@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Email
 %define	pnam	Reply
-Summary:	Email::Reply - Reply to a Message
-Summary(pl):	Email::Reply - odpowiedz na e-mail
+Summary:	Email::Reply - reply to a message
+Summary(pl):	Email::Reply - odpowied¼ na e-mail
 Name:		perl-Email-Reply
 Version:	1.1
 Release:	1
@@ -28,10 +28,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This software takes the hard out of generating replies to email messages.
+This software takes the hard out of generating replies to email
+messages.
 
-# %description -l pl
-# TODO
+%description -l pl
+Pakiet ten usuwa trudno¶æ generowania odpowiedzi na wiadomo¶ci e-mail.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
