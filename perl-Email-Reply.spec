@@ -6,7 +6,7 @@
 %define	pdir	Email
 %define	pnam	Reply
 Summary:	Email::Reply - reply to a message
-Summary(pl):	Email::Reply - odpowiadanie na e-mail
+Summary(pl.UTF-8):   Email::Reply - odpowiadanie na e-mail
 Name:		perl-Email-Reply
 Version:	1.1
 Release:	1
@@ -31,8 +31,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This software takes the hard out of generating replies to email
 messages.
 
-%description -l pl
-Pakiet ten usuwa trudno¶æ generowania odpowiedzi na wiadomo¶ci e-mail.
+%description -l pl.UTF-8
+Pakiet ten usuwa trudnoÅ›Ä‡ generowania odpowiedzi na wiadomoÅ›ci e-mail.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
