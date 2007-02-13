@@ -6,7 +6,7 @@
 %define	pdir	Email
 %define	pnam	Reply
 Summary:	Email::Reply - reply to a message
-Summary(pl.UTF-8):   Email::Reply - odpowiadanie na e-mail
+Summary(pl.UTF-8):	Email::Reply - odpowiadanie na e-mail
 Name:		perl-Email-Reply
 Version:	1.1
 Release:	1
