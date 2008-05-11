@@ -8,13 +8,13 @@
 Summary:	Email::Reply - reply to a message
 Summary(pl.UTF-8):	Email::Reply - odpowiadanie na e-mail
 Name:		perl-Email-Reply
-Version:	1.201
+Version:	1.202
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	ea39a4a73d0b8cc54a28d6e84327413e
+# Source0-md5:	a1d1758016232c98e4119b653d7e1421
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
