@@ -8,7 +8,7 @@ Summary:	Email::Reply - reply to a message
 Summary(pl.UTF-8):	Email::Reply - odpowiadanie na e-mail
 Name:		perl-Email-Reply
 Version:	1.202
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
