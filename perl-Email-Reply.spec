@@ -7,13 +7,13 @@
 Summary:	Email::Reply - reply to a message
 Summary(pl.UTF-8):	Email::Reply - odpowiadanie na e-mail
 Name:		perl-Email-Reply
-Version:	1.202
-Release:	2
+Version:	1.204
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Email/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	a1d1758016232c98e4119b653d7e1421
+Source0:	https://www.cpan.org/authors/id/R/RJ/RJBS/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	3608322924137ef7c920f42364eca58e
 URL:		http://search.cpan.org/dist/Email-Reply/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -21,8 +21,6 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-Email-Abstract >= 2.01
 BuildRequires:	perl-Email-Address >= 1.80
 BuildRequires:	perl-Email-MIME >= 1.82
-BuildRequires:	perl-Email-MIME-Creator >= 1.41
-BuildRequires:	perl-Email-MIME-Modifier >= 1.42
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
